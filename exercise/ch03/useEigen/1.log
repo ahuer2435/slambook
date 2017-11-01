@@ -1,0 +1,4 @@
+Scanning dependencies of target eigenMatrix
+[100%] Building CXX object CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o
+Linking CXX executable eigenMatrix
+[100%] Built target eigenMatrix
