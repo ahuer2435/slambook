@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc,char **argv)
 {
   //旋转向量
-  Eigen::AngleAxisd rotation_vector(M_PI/2,Eigen::Vector3d(0,0,1));	//旋转向量为（0,0，M_PI/2）
+  Eigen::AngleAxisd rotation_vector(M_PI/2,Eigen::Vector3d(0,1,1));	//旋转向量为（0,0，M_PI/2）
   cout.precision(3);
   
   //旋转向量转化为旋转矩阵
