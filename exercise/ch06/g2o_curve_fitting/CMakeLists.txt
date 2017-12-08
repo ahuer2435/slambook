@@ -1,0 +1,27 @@
+cmake_minimum_required( VERSION 3.0 )
+project( g2o_curve_fitting )
+
+set( CMAKE_BUILD_TYPE "Release" )
+set( CMAKE_CXX_FLAGS "-std=c++11 -O3" )
+
+list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
+
+find_package( G2O REQUIRED )
+include_directories( 
+    ${G2O_INCLUDE_DIRS}
+    "/usr/include/eigen3"
+)
+
+#find_package( g2o )
+#include_directories( ${g2o_INCLUDE_DIRS} "/usr/include/eigen3" )
+
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_DIRS} )
+
+add_executable( curve_fitting main.cpp )
+
+target_link_libraries( curve_fitting 
+    ${OpenCV_LIBS}
+#    ${g2o_LIBRARIES}
+    g2o_core g2o_stuff
+)

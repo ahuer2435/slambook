@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 	//将相机坐标系下的点坐标转化为世界坐标系下的坐标：pointWorld[3]
 	Eigen::Vector3d pointWorld = T*point;
 	
-	//将世界坐标系下的点坐标转化为点云数据p。
+	//将世界坐标系下的点坐标转化为点云数据p。点云坐标包含世界坐标点坐标和rgb值。
 	PointT p;
 	p.x = pointWorld[0];
 	p.y = pointWorld[1];
