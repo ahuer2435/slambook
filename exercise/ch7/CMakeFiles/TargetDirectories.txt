@@ -1,3 +1,0 @@
-/home/yanqiao/workspace/slambook/exercise/ch7/CMakeFiles/rebuild_cache.dir
-/home/yanqiao/workspace/slambook/exercise/ch7/CMakeFiles/edit_cache.dir
-/home/yanqiao/workspace/slambook/exercise/ch7/CMakeFiles/feature_extraction.dir
