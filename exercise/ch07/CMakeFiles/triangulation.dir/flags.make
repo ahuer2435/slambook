@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3 -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/opencv -I/usr/local/include 
+CXX_INCLUDES = -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/suitesparse -I/usr/include/eigen3 
 

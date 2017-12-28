@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.0/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "cmake_modules/FindCSparse.cmake"
+  "cmake_modules/FindG2O.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig.cmake"
   "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
@@ -26,6 +28,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.10/Modules/Compiler/GNU-C.cmake"
   "/usr/local/share/cmake-3.10/Modules/Compiler/GNU-CXX.cmake"
   "/usr/local/share/cmake-3.10/Modules/Compiler/GNU.cmake"
+  "/usr/local/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/local/share/cmake-3.10/Modules/FindPackageMessage.cmake"
   "/usr/local/share/cmake-3.10/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/local/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/local/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake"
@@ -46,6 +50,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/pose_estimation_3d3d.dir/DependInfo.cmake"
+  "CMakeFiles/pose_estimation_3d2d.dir/DependInfo.cmake"
   "CMakeFiles/pose_estimation_2d2d.dir/DependInfo.cmake"
   "CMakeFiles/triangulation.dir/DependInfo.cmake"
   "CMakeFiles/feature_extraction.dir/DependInfo.cmake"

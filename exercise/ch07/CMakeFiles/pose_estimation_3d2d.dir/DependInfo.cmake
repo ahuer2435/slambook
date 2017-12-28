@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yanqiao/workspace/slambook/exercise/ch07/extra.cpp" "/home/yanqiao/workspace/slambook/exercise/ch07/CMakeFiles/triangulation.dir/extra.cpp.o"
-  "/home/yanqiao/workspace/slambook/exercise/ch07/triangulation.cpp" "/home/yanqiao/workspace/slambook/exercise/ch07/CMakeFiles/triangulation.dir/triangulation.cpp.o"
+  "/home/yanqiao/workspace/slambook/exercise/ch07/pose_estimation_3d2d.cpp" "/home/yanqiao/workspace/slambook/exercise/ch07/CMakeFiles/pose_estimation_3d2d.dir/pose_estimation_3d2d.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
